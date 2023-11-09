@@ -13,6 +13,8 @@ Free online credit card calculator that provides valuable information to users, 
 
 Free online credit card calculator that provides valuable information to users, including how to minimize debt and a credit payment calculator with recommended payment amounts.
 
+[Credit Card Payoff Calculator Homepage](https://www.calculator.io/credit-card-payoff-calculator/ "Credit Card Payoff Calculator Homepage")
+
 __Shortcode__
 
 Use the Credit Card Payoff Calculator shortcode:
