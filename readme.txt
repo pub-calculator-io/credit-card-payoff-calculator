@@ -13,34 +13,35 @@ Free online credit card calculator that provides valuable information to users, 
 
 Free online credit card calculator that provides valuable information to users, including how to minimize debt and a credit payment calculator with recommended payment amounts.
 
-[Credit Card Payoff Calculator Homepage](https://www.calculator.io/credit-card-payoff-calculator/ "Credit Card Payoff Calculator Homepage")
+[https://www.calculator.io/credit-card-payoff-calculator/](https://www.calculator.io/credit-card-payoff-calculator/)
 
-__Shortcode__
-
-Use the Credit Card Payoff Calculator shortcode:
+__Credit Card Payoff Calculator Shortcode__
 
 `[ci_credit_card_payoff_calculator]`
-
-Libraries in use:
-1. https://mathjs.org/
-2. https://katex.org/
-3. https://github.com/aFarkas/lazysizes
-4. https://github.com/RobinHerbots/Inputmask
-5. https://air-datepicker.com/
-6. https://www.chartjs.org/
 
 == Installation ==
 
 1. Upload the /ci_credit_card_payoff_calculator/ folder to the /wp-content/plugins/ directory.
 2. Activate the [Credit Card Payoff Calculator](https://www.calculator.io/credit-card-payoff-calculator/ "Credit Card Payoff Calculator Homepage") plugin through the "Plugins" menu in WordPress.
 
-== Usage ==
+== Credit Card Payoff Calculator Usage ==
+
 * Add the shortcode `[ci_credit_card_payoff_calculator]` to your page, post or sidebar.
 * Add the following code: `<?php display_ci_credit_card_payoff_calculator(); ?>` to your template where you would like the Credit Card Payoff Calculator to appear.
 
 == Screenshots ==
+
 1. The Credit Card Payoff Calculator Input Form.
 2. The Credit Card Payoff Calculator Calculation Results.
+
+== Libraries used in Credit Card Payoff Calculator ==
+
+1. https://mathjs.org/
+2. https://katex.org/
+3. https://github.com/aFarkas/lazysizes
+4. https://github.com/RobinHerbots/Inputmask
+5. https://air-datepicker.com/
+6. https://www.chartjs.org/
 
 == Changelog ==
 
