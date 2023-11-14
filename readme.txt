@@ -9,41 +9,29 @@ License URI: https://www.gnu.org/licenses/gpl-2.0.html
 
 Free online credit card calculator that provides valuable information to users, including how to minimize debt and a credit payment calculator with recommended payment amounts.
 
-== Description ==
-
-Free online credit card calculator that provides valuable information to users, including how to minimize debt and a credit payment calculator with recommended payment amounts.
-
 [https://www.calculator.io/credit-card-payoff-calculator/](https://www.calculator.io/credit-card-payoff-calculator/)
 
-__Credit Card Payoff Calculator Shortcode__
+== Usage ==
+
+Add the Credit Card Payoff Calculator shortcode to your page, post or sidebar:
 
 `[ci_credit_card_payoff_calculator]`
 
-== Installation ==
+Add the following code to your template where you would like the Credit Card Payoff Calculator to appear:
 
-1. Upload the /ci_credit_card_payoff_calculator/ folder to the /wp-content/plugins/ directory.
-2. Activate the [Credit Card Payoff Calculator](https://www.calculator.io/credit-card-payoff-calculator/ "Credit Card Payoff Calculator Homepage") plugin through the "Plugins" menu in WordPress.
-
-== Credit Card Payoff Calculator Usage ==
-
-* Add the shortcode `[ci_credit_card_payoff_calculator]` to your page, post or sidebar.
-* Add the following code: `<?php display_ci_credit_card_payoff_calculator(); ?>` to your template where you would like the Credit Card Payoff Calculator to appear.
+`<?php display_ci_credit_card_payoff_calculator(); ?>`
 
 == Screenshots ==
 
 1. The Credit Card Payoff Calculator Input Form.
 2. The Credit Card Payoff Calculator Calculation Results.
 
-== Libraries used in Credit Card Payoff Calculator ==
+== Installation ==
 
-1. https://mathjs.org/
-2. https://katex.org/
-3. https://github.com/aFarkas/lazysizes
-4. https://github.com/RobinHerbots/Inputmask
-5. https://air-datepicker.com/
-6. https://www.chartjs.org/
+1. Upload the Credit Card Payoff Calculator /ci_credit_card_payoff_calculator/ folder to the /wp-content/plugins/ directory.
+2. Activate the Credit Card Payoff Calculator plugin through the "Plugins" menu in WordPress.
 
 == Changelog ==
 
 = 1.0.0 =
-* Initial release
+* Initial release of Credit Card Payoff Calculator
