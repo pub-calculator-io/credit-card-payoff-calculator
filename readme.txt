@@ -1,6 +1,6 @@
 === Credit Card Payoff Calculator by Calculator.iO ===
 Contributors: calculatorio
-Tags: 
+Tags: credit card payoff calculator, credit card debt calculator, calculate credit card payment, debt repayment calculator, credit payoff plan, credit card interest calculator, payoff schedule calculator, credit balance calculator, debt elimination calculator, minimum payment calculator
 Requires at least: 5.0
 Tested up to: 6.4.0
 Stable tag: 1.0.0

@@ -86,18 +86,12 @@ import("./assets/js/lib/chartjs/chart.js").then((e) => {
 
 			data.datasets[0].data.forEach((datapoint, index) => {
 				const { x, y } = chart.getDatasetMeta(0).data[index].tooltipPosition();
-
-				let textXPosition = x >= 77 ? 'left' : 'right';
-
-				let xLine = x >= 77 ? x + 15 : x - 15;
-				let yLine = y >= 77 ? y + 15 : y - 15;
-
+				ctx.textAlign = 'center';
 				ctx.font = '14px Inter';
-				ctx.textAlign = textXPosition;
-				ctx.fillStyle = colors[theme].textColor;
+				ctx.fillStyle = '#fff';
 				ctx.textBaseline = 'middle';
-
-				ctx.fillText(`${datapoint}%`, xLine, yLine);
+				let toolTipText = datapoint != '0' ? datapoint + '%' : '';
+				ctx.fillText(toolTipText, x, y);
 			});
 		},
 	};
@@ -126,18 +120,12 @@ import("./assets/js/lib/chartjs/chart.js").then((e) => {
 
 				data.datasets[0].data.forEach((datapoint, index) => {
 					const { x, y } = chart.getDatasetMeta(0).data[index].tooltipPosition();
-
-					let textXPosition = x >= 77 ? 'left' : 'right';
-
-					let xLine = x >= 77 ? x + 15 : x - 15;
-					let yLine = y >= 77 ? y + 15 : y - 15;
-
+					ctx.textAlign = 'center';
 					ctx.font = '14px Inter';
-					ctx.textAlign = textXPosition;
-					ctx.fillStyle = colors[theme].textColor;
+					ctx.fillStyle = '#fff';
 					ctx.textBaseline = 'middle';
-
-					ctx.fillText(`${datapoint}%`, xLine, yLine);
+					let toolTipText = datapoint != '0' ? datapoint + '%' : '';
+					ctx.fillText(toolTipText, x, y);
 				});
 			},
 		};
@@ -470,7 +458,7 @@ import("./assets/js/lib/chartjs/chart.js").then((e) => {
 
 		chartLoanCard.data.datasets[0].backgroundColor = yellowGradient;
 		chartLoanCard.data.datasets[1].backgroundColor = purpleGradient;
-		chartLoanCard.data.datasets[0].borderColor = colors[theme].yellow;
+		chartLoanCard.data.datasets[0].borderColor = colors[theme].sky;
 		chartLoanCard.data.datasets[1].borderColor = colors[theme].purple;
 		chartLoanCard.options.scales.y.grid.color = colors[theme].gridColor;
 		chartLoanCard.options.scales.x.grid.color = colors[theme].gridColor;
