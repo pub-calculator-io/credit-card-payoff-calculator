@@ -1,4 +1,4 @@
-# Credit Card Payoff Calculator WordPress Widget by [Calculator.iO](https://www.calculator.io/ "Calculator.iO Homepage")
+# Credit Card Payoff Calculator Widget for WordPress
 
 Free online credit card calculator that provides valuable information to users, including how to minimize debt and a credit payment calculator with recommended payment amounts.
 
