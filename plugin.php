@@ -1,6 +1,6 @@
 <?php
 /*
-Plugin Name: Credit Card Payoff Calculator by www.calculator.io
+Plugin Name: CI Credit card payoff calculator
 Plugin URI: https://www.calculator.io/credit-card-payoff-calculator/
 Description: Free online credit card calculator that provides valuable information to users, including how to minimize debt and a credit payment calculator with recommended payment amounts.
 Version: 1.0.0
