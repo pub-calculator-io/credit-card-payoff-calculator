@@ -24,7 +24,6 @@ Add the following code to your template where you would like the Credit Card Pay
 == Screenshots ==
 
 1. The Credit Card Payoff Calculator Input Form.
-2. The Credit Card Payoff Calculator Calculation Results.
 
 == Installation ==
 

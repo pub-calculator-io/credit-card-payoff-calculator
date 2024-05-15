@@ -120,23 +120,29 @@
                 
                 
                 
-                	<button class="button button--primary ml-auto" onclick="calculate(this)">Calculate</button>
+                	<button class="button button--primary ml-auto" onclick="calculate(this); animateElements();" data-action="calculate" id="action-button">Calculate</button>
                 </div>
                 
-                	<script type="text/javascript" src="./assets/js/chart.js" id="chartjs_script"></script>
+                	<script type="text/javascript" src="./assets/js/lib/chartjs/chart.min.js" id="chartjs_lib" defer></script>
+                	<script type="text/javascript" src="./assets/js/chart.js" id="chartjs_script" defer></script>
                 
                 
                 
-                	<script type="text/javascript" src="./assets/js/calculator.js"></script>
+                
+                
+                	<script type="text/javascript" src="./assets/js/calculator.js" defer></script>
                 <div class="calculator-content calculator-content--gray calculator-content--footer calculator-content--small row tab " data-tab="1">
                 
                 
                 
                 
-                	<button class="button button--primary ml-auto" onclick="calculate2(this)">Calculate</button>
+                	<button class="button button--primary ml-auto" onclick="calculate2(this); animateElements();" data-action="calculate2" id="action-button">Calculate</button>
                 </div>
                 
-                	<script type="text/javascript" src="./assets/js/chart.js" id="chartjs_script"></script>
+                	<script type="text/javascript" src="./assets/js/lib/chartjs/chart.min.js" id="chartjs_lib" defer></script>
+                	<script type="text/javascript" src="./assets/js/chart.js" id="chartjs_script" defer></script>
+                
+                
                 
                 
                 
@@ -154,8 +160,7 @@
         </svg>
         		<p class="calculator-error__title">There was an error with your calculation.</p>
         	</div>
-        	<div class="col" id="error-list">
-        	</div>
+        	<div class="col" id="error-list"></div>
         </div>        <span id="calculator_result"><style>
     #chartDonutSmall {
         max-width: 200px;
@@ -170,17 +175,17 @@
 				<thead>
 				<tr>
 					<th class="border-radius-top-left">Payment Amount</th>
-					<td class="border-right" id="payment-amount">$300.00</td>
+					<td class="border-right animate" id="payment-amount">$300.00</td>
 				</tr>
 				</thead>
 				<tbody>
 				<tr>
 					<th>Payback in</th>
-					<td class="border-right" id="payback-time">3 years 11 months</td>
+					<td class="border-right animate" id="payback-time">3 years 11 months</td>
 				</tr>
 				<tr>
 					<th class="border-bottom-none semibold">Total Interest</th>
-					<td class="border-bottom-none border-right semibold" id="total-interest">$3,967.21</td>
+					<td class="border-bottom-none border-right semibold animate" id="total-interest">$3,967.21</td>
 				</tr>
 				</tbody>
 			</table>
@@ -217,9 +222,6 @@
 		</div>
 	</div>
 </div>
-
-<!-- <script src="./assets/js/chart.js"./assets/js/chart.js').then(e => switchTheme = e.default)
-</script> -->
 </span>
     </div>
 </div>

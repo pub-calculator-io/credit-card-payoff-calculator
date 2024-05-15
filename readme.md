@@ -3,7 +3,6 @@
 Free online credit card calculator that provides valuable information to users, including how to minimize debt and a credit payment calculator with recommended payment amounts.
 
 ![Credit Card Payoff Calculator Input Form](/assets/images/screenshot-1.png "Credit Card Payoff Calculator Input Form")
-![Credit Card Payoff Calculator Calculation Results](/assets/images/screenshot-2.png "Credit Card Payoff Calculator Calculation Results")
 
 ## Installation
 
